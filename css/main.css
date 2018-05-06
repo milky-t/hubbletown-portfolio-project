@@ -1,0 +1,248 @@
+/****** BASE STYLES ******/
+body {
+    font-family: 'Slabo 27px', serif;
+}
+
+h1, h3, p span, nav ul li a, h5  {
+  font-family: 'Changa One', cursive;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2, h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+nav ul li a {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#main-title, #intro, nav ul li a, #contact-h3, #contact-h4 {
+  background-color: white;
+}
+
+/****** GRID ******/
+.full-width {
+  width: 1220px;
+}
+
+.half-width {
+  float: left;
+  width: 610px;
+}
+
+.third-width {
+  float: left;
+  width: 350px;
+}
+
+.quarter-width {
+  float: left;
+  padding-left: 50px;
+  width: 250px;
+}
+
+header, #about, #skills, #projects {
+  height: 550px;
+}
+
+header, #about, #contact, #pinboard{
+  margin-left: 30px;
+}
+
+#skills, #projects {
+  margin-left: 20px;
+}
+
+#projects .full-width, #skills .full-width {
+  border-top: solid black 5px;
+}
+
+/******     M U L T I - P A G E  E L E M E N T S     *****/
+
+/****** HEADER ******/
+header {
+  background: url('../img/green-trees.png');
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+
+#resume-header {
+  background: url('../img/yellow-trees.png');
+  background-repeat: no-repeat;
+}
+
+#main-title {
+  height: 65px;
+  margin-top: 70px;
+  width: 350px;
+}
+
+#intro {
+  height: 40px;
+  margin-top: 70px;
+  width: 800px;
+}
+
+nav {
+  float: right;
+  padding: 10px 15px 0 0;
+  clear: both;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding-left: 25px;
+}
+
+/****** CONTACT FOOTER ******/
+#contact {
+  background: url('../img/purple-clouds.png');
+  background-repeat: no-repeat;
+  height: 350px;
+  margin-bottom: 30px;
+  clear: both;
+}
+
+#contact-details {
+  float: right;
+  width: 350px;
+}
+
+#contact-h3 {
+  height: 40px;
+  margin: 90px 0 0 20px;
+  padding-left: 15px;
+  width: 230px;
+}
+
+#contact-h4 {
+  height: 75px;
+  line-height: 35px;
+  margin-left: -50px;
+  padding: 10px 10px 0 0;
+  text-align: right;
+  width: 260px;
+}
+
+#socials-icons {
+padding: 290px 0 0 395px;
+width: 350px;
+}
+
+#socials-icons img {
+padding-left: 80px;
+}
+
+
+/***** H O M E P A G E *****/
+
+/****** ABOUT ******/
+
+#about-blurb, #about h3 {
+  text-align: right;
+}
+
+#mily-image {
+  border: solid 10px black;
+  margin: 80px 0 0 70px;
+}
+
+#about p {
+  line-height: 26px;
+  padding: 0 100px 0 50px;
+  width: 570px;
+}
+
+#about .half-width {
+  padding-top: 90px;
+}
+
+/****** SKILLS ******/
+#skills h3 {
+  padding-left: 40px;
+}
+
+#skills p {
+  text-align: center;
+}
+
+#skills img {
+  padding: 70px 0 30px 70px;
+}
+
+/****** PROJECTS ******/
+#projects h3 {
+  text-align: right;
+}
+
+#projects img {
+  border: solid 10px black;
+}
+
+#projects .third-width {
+  padding: 70px 0 0 56px;
+}
+
+#projects p {
+  width: 310px;
+}
+
+
+/*****    R E S U M E  P A G E   *****/
+
+#pinboard {
+  height: auto;
+  padding: 50px 0 50px 0;
+}
+
+.row {
+  width: 210px;
+  height: auto;
+  float: left;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.cards {
+  width: 200px;
+  height: auto;
+  border: 6px solid black;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+.cards h5 {
+  text-align: center;
+  line-height: 8px;
+}
+
+.cards p {
+  padding: 5px 10px 5px 10px;
+}
+
+.cards img {
+  height: 90px;
+  width: 180px;
+  padding-left: 9px;
+}
